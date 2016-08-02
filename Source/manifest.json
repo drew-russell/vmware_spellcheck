@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "VMware Spellcheck",
+	"version": "1.0",
+	"description": "Corrects the common misspellings of VMware.",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
