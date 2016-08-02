@@ -32,8 +32,8 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 
-	v = v.replace(/\Vmware\b/g, "VMware");
-	v = v.replace(/\VMWare\b/g, "VMware");
+	v = v.replace(/\b\Vmware\b/g, "VMware");
+	v = v.replace(/\b\VMWare\b/g, "VMware");
 	v = v.replace(/\bvmware\b/g, "VMware");
 
 	textNode.nodeValue = v;
