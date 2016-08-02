@@ -1,14 +1,14 @@
 ### VMware Spellcheck
 =================
 
-A Chrome extension that corrects the common misspellings of VMware.
+A Chrome extension, based on cloud to butt, that corrects the common misspellings of VMware.
 
-[Direct download of crx file](https://github.com/lahdekorpi/cloud-to-bullshit/raw/master/CloudToBullshit.crx?raw=true)
+[Direct download of crx extension file](https://github.com/drew-russell/vmware_spellcheck/blob/master/vmware_spellcheck.crx?raw=true)
 
 Installation
 ------------
 
-In Chrome, choose Window > Extensions.  Drag CloudToBullshit.crx into the page that appears.
+In Chrome visit chrome://extensions and then drag vmware_spellcheck.crx into the page that appears.
 
 Original cloud-to-butt
 -------------------------
