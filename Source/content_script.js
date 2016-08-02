@@ -33,6 +33,7 @@ function handleText(textNode)
 
 
 	v = v.replace(/\b\Vmware\b/g, "VMware");
+	v = v.replace(/\b\VmWare\b/g, "VMware");
 	v = v.replace(/\b\VMWare\b/g, "VMware");
 	v = v.replace(/\bvmware\b/g, "VMware");
 
