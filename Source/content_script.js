@@ -31,8 +31,8 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-
-	v = v.replace(/\b[vV][mM][wW][aA@4][rR][e3E]\b/g, "VMware");
+	v = v.replace(/\b[vV][mM][wW][aA@4][rR][e3E]\b/g, "VMware"); // VMware handler
+	v = v.replace(/\b[vV][sS][aA][nN]\b/g, "vSAN"); // vSAN handler
 
 	textNode.nodeValue = v;
 }
